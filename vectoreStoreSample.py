@@ -17,7 +17,6 @@ from langchain.chains import ConversationalRetrievalChain
 
 # .envファイルの内容を読み込見込む
 load_dotenv()
-# os.environ["OPENAI_API_KEY"] = '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'
 
 # インターネット上からマニュアルファイルをダウンロード（BuffaloTerastation)
 url = 'https://manual.buffalo.jp/buf-doc/35021178-39.pdf'
